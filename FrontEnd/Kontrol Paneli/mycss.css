@@ -1,0 +1,232 @@
+
+    @font-face {
+        font-family: Anago-Medium;
+        src: url(assets/fonts/Anago-Medium.ttf);
+    }
+    @font-face {
+        font-family: Anago-Thin;
+        src: url(assets/fonts/Anago-Thin.ttf);
+    }
+    
+        .text1 /*input*/
+        {  
+            width: 100%; /*243px eski değer | 100% duruma göre değiştirilir*/
+            height: 40px; /*53px eski değer */
+            /*margin: 2px;*/
+            padding: 0px 10px 0px 10px;
+            border-radius: 14px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: all 0.6s cubic-bezier(.25,.8,.25,1);
+            border-style: none;
+            background-color: #ffffff;
+            font-size:100%; /* eski değer medium */
+            color: rgb(12, 12, 12);
+            font-family: Anago-Medium;
+            
+        }
+        .text2 /*input*/
+        {  
+            width: 100%; /*243px eski değer | 100% duruma göre değiştirilir*/
+            height: 80px; /*53px eski değer */
+            /*margin: 2px;*/
+            padding: 0px 10px 0px 10px;
+            border-radius: 14px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: all 0.6s cubic-bezier(.25,.8,.25,1);
+            border-style: none;
+            background-color: #ffffff;
+            font-size:100%; /* eski değer medium */
+            color: rgb(12, 12, 12);
+            font-family: Anago-Medium;
+            
+            
+        }
+        .text2:focus /*input*/
+        {   
+            outline: none;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            transition: all 0.6s cubic-bezier(.25,.8,.25,1);
+        }
+        .text1:focus /*input*/
+        {   
+            outline: none;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            transition: all 0.6s cubic-bezier(.25,.8,.25,1);
+        }
+        .button1:focus /*button*/
+        {
+            outline: none;
+        }
+        .button1:active /*button*/
+        {
+            box-shadow: 0 2px 6px 0 rgba(60, 64, 67, 0.42);
+        }
+        .button1 /*button*/
+        {
+            
+            width: 115px;
+            height: 50px;
+            margin: 2px;
+            padding: 14px 20px 14px 20px;
+            border-radius: 14px;
+            border-style: none;
+            box-shadow: 0 4px 8px 0 rgba(60, 64, 67, 0.42);
+            background-color: #54ba56;
+            font-size: 100%;
+            font-family: Anago-Medium;
+            color:#ffffff;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        .button2:focus /*button*/
+        {
+            outline: none;
+        }
+        .button2:active /*button*/
+        {
+            box-shadow: 0 2px 6px 0 rgba(60, 64, 67, 0.42);
+        }
+        .button2 /*button*/
+        {
+           
+            width: 115px;
+            height: 50px;
+            margin: 2px;
+            padding: 14px 20px 14px 20px;
+            border-radius: 14px;
+            border-style: none;
+            box-shadow: 0 4px 8px 0 rgba(60, 64, 67, 0.42);
+            background-color:#0A214C;
+            font-size: 100%;
+            font-family: Anago-Medium;
+            color:#ffffff;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        .select1 /*select*/
+        {  
+            width: 100%; /*243px eski değer | 100% duruma göre değiştirilir*/
+            height: 40px; /*53px eski değer */
+            /*margin: 2px;*/
+            padding: 0px 10px 0px 10px;
+            border-radius: 14px;
+            box-shadow: 0 4px 8px 0 rgba(60, 64, 67, 0.3);
+            border-style: none;
+            background-color: #ffffff;
+            font-size:100%; /* eski değer medium */
+            color: rgb(117, 117, 117);
+
+            font-family: Anago-Medium;           
+            /*Alttaki 3 satırın amk, saatlerimi alan lanet şeyler*/
+            display: inline-block;
+            background: url("data:image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px;
+            appearance: none;
+        }
+        .select1:active
+        {
+            color: rgb(12, 12, 12);
+
+        }
+        .select1:focus /*select*/
+        {   
+            color: rgb(12, 12, 12);
+            outline: none;
+            box-shadow: 0 2px 6px 0 rgba(60, 64, 67, 0.42);
+        }
+        .cardj
+        {
+            box-shadow: 0 4px 8px 0 rgba(60, 64, 67, 0.3);
+            border-style: none;
+            width: fit-content;
+            padding: 5px 10px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(26, 54, 126, 0.125);
+            border-radius: 1.0rem;
+            
+        }
+      
+        .button1min:focus /*button*/
+        {
+            outline: none;
+        }
+        .button1min:active /*button*/
+        {
+            box-shadow: 0 2px 6px 0 rgba(60, 64, 67, 0.42);
+        }
+        .button1min /*button*/
+        {
+            
+            width: 115px;
+            height: 40px;
+            margin: 2px;
+            padding: 10px 20px 14px 20px;
+            border-radius: 14px;
+            border-style: none;
+            box-shadow: 0 4px 8px 0 rgba(60, 64, 67, 0.42);
+            background-color: #54ba56;
+            font-size: 100%;
+            font-family: Anago-Medium;
+            color:#ffffff;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        .large-margin{
+            margin: 15px;
+        }
+        .medium-margin{
+            margin: 10px;
+        }
+        .small-margin{
+            margin:5px;
+        }
+        .borderless-tb{
+            border:none;
+        }
+        
+        .borderless-tb th,
+        .borderless-tb td,
+        .borderless-tb thead th,
+        .borderless-tb tbody+tbody {
+            border: 0
+        }
+        table{
+            min-width: 100px;
+        }
+        .text-center{
+            text-align: center;
+        }
+     
+        .big-label{
+            font-size: large;
+        }
+        .medium-label{
+            font-size: medium;
+        }
+        .right-display{
+            float: right;
+        }
+
+    .green{
+        color:green;
+    }
+    .orange{
+        color:orange;
+    }
+    .red{
+        color:red;
+        
+    }
+    .th-red{
+        background-color:rgb(221, 126, 126);
+    }
+    .th-green{
+        background-color:rgb(135, 235, 140);
+
+    }
